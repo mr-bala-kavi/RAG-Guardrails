@@ -17,7 +17,7 @@ for dir_path in [UPLOADS_DIR, FAISS_DIR, LOGS_DIR]:
 
 # Ollama settings
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "phi3:mini")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "deepseek-r1:8b")
 
 # Embedding model settings
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
